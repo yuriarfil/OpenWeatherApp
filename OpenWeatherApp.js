@@ -2,7 +2,7 @@
  * Sample React Native App
  * https://github.com/facebook/react-native
  * @flow
- * https://api.openweathermap.org
+ * API: https://api.openweathermap.org
  */
 
 import React, { Component } from 'react'
@@ -35,7 +35,7 @@ class OpenWeather extends Component {
       })
       .catch((error) => {
          console.error(error);
-		 this.setState({
+	 this.setState({
             main: 'Not Found!',
             desc: 'Not Found!',
             temp: 'Not Found!'
@@ -53,10 +53,10 @@ class OpenWeather extends Component {
             <Text>
                {this.state.main}
             </Text>
-			<Text>
+	    <Text>
                {this.state.desc}
             </Text>
-			<Text>
+	    <Text>
                {this.state.temp}
             </Text>
          </View>
