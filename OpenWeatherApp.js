@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "nowrap",
     alignItems: "flex-start",
-    padding: 400
+    padding: 30
   },
 });
 
