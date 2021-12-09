@@ -1,5 +1,5 @@
 # OpenWeatherApp
-A simple weather app in react native web player.
+A simple weather app using react native.
 [Lets try](https://snack.expo.dev/@uwi/bad-bubblegum)
 
 # APIs
