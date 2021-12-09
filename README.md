@@ -1,4 +1,4 @@
-# OpenWeatherApp
+# OpenWeatherApp-React Native
 A simple weather app using react native.
 [Lets try](https://snack.expo.dev/@uwi/bad-bubblegum)
 
