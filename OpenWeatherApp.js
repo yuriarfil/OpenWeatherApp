@@ -47,7 +47,7 @@ class OpenWeather extends Component {
 
   render() {
     return (
-      <ImageBackground source={require('/background.jpg')} style={styles.background}>
+      <ImageBackground source={require('./background.jpg')} style={styles.background}>
         <View style={styles.container}>
           <View style={styles.header}>
             <Text style={styles.title}>Weather Check</Text>
@@ -93,8 +93,12 @@ const styles = StyleSheet.create({
     marginBottom: 20
   },
   title: {
-    fontSize: 24,
-    color: 'white'
+    fontSize: 30, // Increased font size
+    color: 'white',
+    fontWeight: 'bold', // Bold font
+    textShadowColor: 'rgba(0, 0, 0, 0.5)', // Shadow effect
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 5
   },
   inputContainer: {
     padding: 10,
